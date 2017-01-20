@@ -1,0 +1,18 @@
+doctype
+html(lang=config.language)
+    head
+        include head
+    body
+        #mask(style="display: none;")
+            img#mask-image(src="#" style=" ")
+        .wrap
+            header
+                a.logo-link(href=url_for())
+                    img(src=theme.logo)
+                include nav
+            section.container
+                block container
+            footer
+                block pagination
+                block copyright
+        include scripts
