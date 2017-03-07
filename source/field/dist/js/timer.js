@@ -14,11 +14,11 @@
         var minutes = getMinutes(now, deadline);
         var seconds = getSeconds(now, deadline);
 
-        if (!days) {
+        if (days < 0) {
             clearInterval(timer);
 
             document.querySelector('.timer-tick')
-                .innerHTML = '<div class="time-to-go">是该点亮眼睛的时候了!</div>';
+                .innerHTML = '<div class="time-to-go">2017-02-25 一个很幸福的日子💕<br>暂时记录下, 该添加个新页面了☺</div>';
         }
 
         document.querySelector('.timer-digit-days').innerHTML = days;
