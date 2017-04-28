@@ -44,7 +44,7 @@ tags:
 // 使用 demo ==> 单边使用
 .demo-h {
     &:before {
-        .one-px(#da8677);
+        .one-px-h(#da8677);
     }
 }
 
@@ -185,6 +185,15 @@ a:active {
 $(document).bind('touchstart', function (e) {});
 ```
 
+#### hammer & zepto tap 事件冲突
+```javascript
+var gesture = e.gesture;
+if (!gesture) {
+    // hammer 触发的事件会有 gesture 这个属性， 可以以此来判断
+    return;
+}
+```
+
 > 直接写上 `active` 伪类是不生效的, 需给 `document` 绑定一个空 (也可以不空) 的 `touch` 事件, 引入`hammer` 可以不用添加此事件, `hammer`中已经绑定了此事件
 >
 > 不要用: `-webkit-tap-highlight-color: 颜色` 有些库会默认给 dom 设置为内联 `rgba(0, 0, 0, 0)`
@@ -284,6 +293,12 @@ display: block;
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
+
+/* 多行文本溢出展示 '...' */
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
 
 /* 水平垂直居中 (定位) */
 .vh-center {
