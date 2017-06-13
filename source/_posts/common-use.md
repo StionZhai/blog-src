@@ -401,3 +401,5 @@ function fixPlaceholder(css) {
 1. icon 小标志记得留buffer (比如一个 icon 3x3, 实际大约要是 3.2x3.2)
 2. 能加 line-height 的地方尽量添加 line-height
 3. 需要对其的元素, 设计时需要放到一起, 不然错行问题够恶心
+4. 页面最底部不要用 margin-bottom 去撑开, 用 padding-bottom
+5. 容错处理放到第一位
