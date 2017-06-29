@@ -396,6 +396,10 @@ function fixPlaceholder(css) {
 
 ```
 
+### 关于 js 类型检测
+
+- 一篇不错的介绍[文章](https://www.xiabingbao.com/javascript/2015/07/04/javascript-type.html)
+
 ### 移动端开发经验总结
 
 1. icon 小标志记得留buffer (比如一个 icon 3x3, 实际大约要是 3.2x3.2)
