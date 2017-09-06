@@ -15,3 +15,7 @@ tags:
 > 看完多益大神的文章, 瞬间感觉发现了新大陆, 视野开阔了好多倍. 以后好好努力, 希望自己待到枝繁叶茂时也能这样分享知识
 
 - [h5 文件上传组件深度剖析](http://fex.baidu.com/blog/2014/04/html5-uploader/)
+- 文件上传基础
+    - [基础篇](https://www.qcloud.com/community/article/985614)
+    - [渐进式增强](http://www.ruanyifeng.com/blog/2012/08/file_upload.html)
+    - [文件和二进制数据的操作](http://javascript.ruanyifeng.com/htmlapi/file.html)
