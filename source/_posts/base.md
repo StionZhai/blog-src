@@ -28,3 +28,9 @@ tags:
 ### 前端工程化
 
 - [babel 解析](https://segmentfault.com/a/1190000011155061?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly#articleHeader8)
+
+### 浏览器渲染原理
+
+- [知乎](https://www.zhihu.com/question/59024365/answer/161548734)
+- [过程与原理](https://zhuanlan.zhihu.com/p/29418126)
+- [酷客](https://coolshell.cn/articles/9666.html)
