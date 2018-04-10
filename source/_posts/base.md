@@ -32,5 +32,6 @@ tags:
 ### 浏览器渲染原理
 
 - [知乎](https://www.zhihu.com/question/59024365/answer/161548734)
+- [浅析浏览器渲染机制](http://blog.codingplayboy.com/2017/03/29/webpage_render/)
 - [过程与原理](https://zhuanlan.zhihu.com/p/29418126)
 - [酷客](https://coolshell.cn/articles/9666.html)
